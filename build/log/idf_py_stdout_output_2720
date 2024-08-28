@@ -1,0 +1,74 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6992
+load:0x40078000,len:15512
+load:0x40080400,len:3864
+entry 0x40080650
+[0;32mI (27) boot: ESP-IDF v5.0.4-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time 10:34:59[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (31) boot: chip revision: v3.1[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (40) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (49) boot: Enabling RNG early entropy source...[0m
+[0;32mI (54) boot: Partition Table:[0m
+[0;32mI (58) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (65) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (72) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (80) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (87) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=11a0ch ( 72204) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=00021a34 vaddr=3ffb0000 size=01f24h (  7972) load[0m
+[0;32mI (129) esp_image: segment 2: paddr=00023960 vaddr=40080000 size=0c6b8h ( 50872) load[0m
+[0;32mI (153) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=35140h (217408) map[0m
+[0;32mI (232) esp_image: segment 4: paddr=00065168 vaddr=4008c6b8 size=006b0h (  1712) load[0m
+[0;32mI (239) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (239) boot: Disabling RNG early entropy source...[0m
+[0;32mI (252) cpu_start: Multicore app[0m
+[0;32mI (252) cpu_start: Pro cpu up.[0m
+[0;32mI (252) cpu_start: Starting app cpu, entry point is 0x40081284[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (270) cpu_start: Pro cpu start user code[0m
+[0;32mI (270) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (270) cpu_start: Application information:[0m
+[0;32mI (275) cpu_start: Project name:     app-template[0m
+[0;32mI (280) cpu_start: App version:      1[0m
+[0;32mI (285) cpu_start: Compile time:     Aug 28 2024 10:38:27[0m
+[0;32mI (291) cpu_start: ELF file SHA256:  a44d483eafa0f666...[0m
+[0;32mI (297) cpu_start: ESP-IDF:          v5.0.4-dirty[0m
+[0;32mI (302) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (307) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (312) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (316) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (324) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (330) heap_init: At 3FFB3270 len 0002CD90 (179 KiB): DRAM[0m
+[0;32mI (336) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (342) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (349) heap_init: At 4008CD68 len 00013298 (76 KiB): IRAM[0m
+[0;32mI (356) spi_flash: detected chip: gd[0m
+[0;32mI (359) spi_flash: flash io: dio[0m
+[0;33mW (363) spi_flash: Detected size(16384k) larger than the size in the binary image header(4096k). Using the size in the binary image header.[0m
+[0;32mI (377) app_start: Starting scheduler on CPU0[0m
+[0;32[0;32mI (381) app_start: Starting scheduler on CPU1[0m
+mI (381) main_task: Started on CPU0[0m
+[0;32mI (391) main_task: Calling app_main()[0m
+[0;32mI (411) system_api: Base MAC address is not set[0m
+[0;32mI (411) system_api: read default base MAC address from EFUSE[0m
+[0;32mI (411) main_task: Returned from app_main()[0m
+[0;32mI (441) esp_eth.netif.netif_glue: 12:02:08:04:07:06[0m
+[0;32mI (441) esp_eth.netif.netif_glue: ethernet attached to netif[0m
+[0;32mI (2041) eth: Ethernet Started[0m
+[0;32mI (2041) eth: Ethernet Link Up[0m
+[0;32mI (2041) eth: Ethernet HW Addr 12:02:08:04:07:06[0m
+[0;32mI (2041) eth: Ethernet Got IP Address[0m
+[0;32mI (2041) eth: ~~~~~~~~~~~[0m
+[0;32mI (2041) eth: ETHIP:192.168.0.1[0m
+[0;32mI (2051) eth: ETHMASK:255.255.255.0[0m
+[0;32mI (2051) eth: ETHGW:192.168.0.1[0m
+[0;32mI (2061) eth: ~~~~~~~~~~~[0m
+[0;32mI (2061) esp_netif_handlers: eth ip: 192.168.0.1, mask: 255.255.255.0, gw: 192.168.0.1[0m
