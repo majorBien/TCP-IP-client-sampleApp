@@ -7,7 +7,7 @@
 static const char *TAG = "example";
 static const char *payload = "Message from ESP32 ";
 
-#define PORT 9100
+#define PORT 2000
 #define HOST_IP "192.168.0.89"
 
 static void tcp_client_task(void *pvParameters)

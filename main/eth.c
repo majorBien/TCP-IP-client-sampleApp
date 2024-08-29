@@ -50,8 +50,6 @@ static void eth_event_handler(void *arg, esp_event_base_t event_base, int32_t ev
                      mac_addr[0], mac_addr[1], mac_addr[2], mac_addr[3], mac_addr[4], mac_addr[5]);
 
 
-            memcpy((void*)AppConfig.gw.v, (void*)mac_addr, 6); 
-
             break;
         case ETHERNET_EVENT_DISCONNECTED:
             ESP_LOGI(TAG, "Ethernet Link Down");
@@ -132,9 +130,9 @@ void ethernetParamConfig(CFG *config)
     setIPAddressFromString(&config->dns1, ETH_AP_DNS1);
     setIPAddressFromString(&config->dns2, ETH_AP_DNS2);
     config->dhcp = ETH_APP_DHCP; 
-}
+} 
 
-void setStaticIP(CFG * config)
+void setStaticIP(CFG *config)
 {
     if (config->dhcp == 0) {
         esp_netif_ip_info_t ip_info;
