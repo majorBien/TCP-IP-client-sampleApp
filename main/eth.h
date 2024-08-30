@@ -2,7 +2,7 @@
  * eth.h
  *
  *  Created on: 27 sie 2024
- *      Author: Dell
+ *      Author: majorBien
  */
 
 

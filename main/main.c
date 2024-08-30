@@ -1,3 +1,10 @@
+/*
+ * main.c
+ *
+ *  Created on: 30 sie 2024
+ *      Author: majorBien
+ */
+
 #include "nvs_flash.h"
 //#include "wifi_app.h"
 #include "eth.h"
