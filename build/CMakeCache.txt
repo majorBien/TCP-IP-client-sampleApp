@@ -15,7 +15,7 @@
 ########################
 
 //No help, variable specified on the command line.
-CCACHE_ENABLE:UNINITIALIZED=0
+CCACHE_ENABLE:UNINITIALIZED=1
 
 //Path to a program.
 CCACHE_FOUND:FILEPATH=C:/Espressif/tools/ccache/4.6.2/ccache-4.6.2-windows-x86_64/ccache.exe
@@ -557,7 +557,7 @@ C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS:INTERNAL=1
 //Details about finding Git
 FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[C:/Program Files/Git/cmd/git.exe][v2.45.0.windows.1()]
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[C:/Espressif/python_env/idf5.0_py3.12_env/Scripts/python.exe][cfound components: Interpreter ][v3.12.5()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[C:/Espressif/python_env/idf5.0_py3.11_env/Scripts/python.exe][cfound components: Interpreter ][v3.11.2()]
 //ADVANCED property for variable: GIT_EXECUTABLE
 GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 //Have include stddef.h
@@ -572,8 +572,8 @@ HAVE_TIME_T_SIZE:INTERNAL=TRUE
 TIME_T_SIZE:INTERNAL=8
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/app-template
-_Python3_EXECUTABLE:INTERNAL=C:/Espressif/python_env/idf5.0_py3.12_env/Scripts/python.exe
+_Python3_EXECUTABLE:INTERNAL=C:/Espressif/python_env/idf5.0_py3.11_env/Scripts/python.exe
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;5;32;;;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1520.0_x64__qbz5n2kfra8p0\Lib;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1520.0_x64__qbz5n2kfra8p0\Lib;C:\Espressif\python_env\idf5.0_py3.12_env\Lib\site-packages;C:\Espressif\python_env\idf5.0_py3.12_env\Lib\site-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=8a38d905862f68e11ca93309ca807037
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;11;2;32;;;C:\Espressif\tools\idf-python\3.11.2\Lib;C:\Espressif\tools\idf-python\3.11.2\Lib;C:\Espressif\python_env\idf5.0_py3.11_env\Lib\site-packages;C:\Espressif\python_env\idf5.0_py3.11_env\Lib\site-packages
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=847c93e0c2acb67ae3a18b8749a0bc3f
 

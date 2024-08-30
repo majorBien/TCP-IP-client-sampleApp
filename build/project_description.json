@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "app-template",
-    "project_version":    "14b5d95-dirty",
+    "project_version":    "8f171dd-dirty",
     "project_path":       "C:/Users/Dell/eclipse-workspace/tcpClient",
     "idf_path":           "C:/Espressif/frameworks/esp-idf-v5.0.4",
     "build_dir":          "C:/Users/Dell/eclipse-workspace/tcpClient/build",

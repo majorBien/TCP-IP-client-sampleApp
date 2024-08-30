@@ -66,6 +66,6 @@ void setIPAddressFromString(IP_ADDR *ip, const char *ipStr);
 
 void ethernetParamConfig(CFG *config);
 
-void setStaticIP(CFG * config);
+void setStaticIP(CFG *config);
 
 void ethAppStart(void);
